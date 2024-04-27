@@ -1,0 +1,5 @@
+a = input('Введите числа через запятую: ')
+b = a.split(',')
+c = (tuple(b))
+print(b)
+print(c, type(c))
